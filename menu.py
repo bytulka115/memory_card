@@ -54,8 +54,8 @@ def menu():
         "запитання": quest_ledt.text(),
         "Правильна відповідь": right_ledt.text(),
         "Не правильна відповідь1": wrong1_ledt.text(),
-        "Не правильна відповідь2": "5",
-        "Не правильна відповідь3": "7",
+        "Не правильна відповідь2": wrong2_ledt.text(),
+        "Не правильна відповідь3": wrong3_ledt.text(),
 
         }
         database.question.append(new_quest)
